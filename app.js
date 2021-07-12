@@ -28,7 +28,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 //Middleware example
 app.use((req, res, next) => {
-  console.log('Hello from the middleware');
+  // console.log('Hello from the middleware');
   next();
 });
 
