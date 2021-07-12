@@ -14,6 +14,7 @@ const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
 const cookieParser = require('cookie-parser');
+//START HERE
 const app = express();
 //Using Middleware
 //Middleware is a function that can modify the incoming request data
