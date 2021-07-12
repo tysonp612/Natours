@@ -14,6 +14,7 @@ const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
 const cookieParser = require('cookie-parser');
+const compression = require('compression');
 //START HERE
 const app = express();
 //Using Middleware
@@ -139,5 +140,8 @@ app.all('*', (req, res, next) => {
   next(new AppError(`Can not find ${req.originalUrl} on this server!`, 404));
 });
 
+app.use(compression());
+
+//Using Globale Error Handler
 app.use(globalErrorHandler);
 module.exports = app;
