@@ -1,8 +1,8 @@
-const Tour = require('./../model/tourModel');
-const Review = require('./../model/reviewModel');
-const catchAsync = require('./../utils/catchAsync');
-const AppError = require('./../utils/appError');
-const User = require('./../model/userModel');
+const Tour = require('../model/tourModel');
+const Review = require('../model/reviewModel');
+const catchAsync = require('../utils/catchAsync');
+const AppError = require('../utils/appError');
+const User = require('../model/userModel');
 const factory = require('./handlerFactory');
 
 exports.getAllReviews = factory.getAll(Review);

@@ -1,8 +1,8 @@
-const User = require('./../model/userModel');
+const User = require('../model/userModel');
 const sharp = require('sharp');
-const APIFeature = require('./../utils/apiFeature');
-const catchAsync = require('./../utils/catchAsync');
-const AppError = require('./../utils/appError');
+const APIFeature = require('../utils/apiFeature');
+const catchAsync = require('../utils/catchAsync');
+const AppError = require('../utils/appError');
 const factory = require('./handlerFactory');
 const multer = require('multer');
 

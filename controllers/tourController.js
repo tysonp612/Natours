@@ -1,7 +1,7 @@
-const Tour = require('./../model/tourModel');
+const Tour = require('../model/tourModel');
 // const APIFeature = require('./../utils/apiFeature');
-const catchAsync = require('./../utils/catchAsync');
-const AppError = require('./../utils/appError');
+const catchAsync = require('../utils/catchAsync');
+const AppError = require('../utils/appError');
 const factory = require('./handlerFactory');
 const multer = require('multer');
 const sharp = require('sharp');
