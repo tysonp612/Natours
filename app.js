@@ -15,6 +15,7 @@ const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
 const cookieParser = require('cookie-parser');
 const compression = require('compression');
+
 //START HERE
 const app = express();
 //Using Middleware
